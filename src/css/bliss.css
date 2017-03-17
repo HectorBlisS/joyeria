@@ -1,0 +1,169 @@
+/*Header*/
+
+.hamburguesa{
+	padding-left: 50px;
+	margin-bottom: 50px;
+	font-size:2rem;
+	cursor:pointer;
+}
+.barra{
+	position: absolute;
+	top:0;
+	left:0;
+	width:275px;
+	background: black;
+	color:white;
+	padding: 50px 0px 20px 0px;
+	height:100vh;
+}
+.barra ul{
+	list-style:none;
+
+}
+.barra li{
+	font-weight: 800;
+	padding: 10px 0px 10px 5px;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+.barra li:hover{
+	background: grey;
+	color:#FFD700;
+}
+.barra i{
+	color:white;
+}
+.copyrights {
+	position: absolute;
+	bottom: 0;
+	padding-left: 20px;
+}
+
+.margen-izquierdo{
+	margin-left: 275px;
+}
+
+/*Homepage*/
+
+@import url('https://fonts.googleapis.com/css?family=Oranienbaum');
+
+.portada{
+	background-image:url(/images/homepage_bg_img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat ;
+	background-position-y:center;
+	height: 100vh;
+	overflow: hidden;
+}
+.encabezado{
+	padding:200px 50px 0px 50px;
+	display: block;
+	height: auto;
+	overflow: hidden;
+	margin-bottom:22%;
+
+}
+
+.encabezado div:first-child{
+	float: left;
+	position: relative;
+
+}
+.encabezado div:first-child i{
+	position: absolute;
+	left: 38px;
+	top:-20px;
+	color:#FFD700;
+	font-size:3rem;
+}
+.encabezado div:first-child b{
+	font-size: 6rem;
+	font-family: 'Oranienbaum', serif;
+}
+.encabezado div:first-child span{
+	font-size: 2rem;
+	font-family: 'Oranienbaum', serif;
+	letter-spacing: 3px;
+}
+
+/* Lado derecho */
+
+.encabezado div:nth-child(2){
+	float: right;
+}
+
+.encabezado div:nth-child(2) p{
+	color:#FFD700;
+	font-size: 2rem;
+}
+.encabezado div:nth-child(2) span{
+	color:black;
+	font-size: 3rem;
+}
+.encabezado div:nth-child(2) div{
+	color:#FFD700;
+	font-size: 3rem;
+}
+.encabezado div:nth-child(2) div i{
+	margin-right: 40px;
+	cursor:pointer;
+	transition: all 0.3s ease;
+}
+.encabezado div:nth-child(2) div i:hover{
+	margin-right: 40px;
+	color:black;
+}
+
+/* Promociones */
+.promos{
+	padding:0px 20px 0 20px;
+}
+
+.promo-item{
+	cursor: pointer;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
+	background: black;
+	position: relative;
+}
+.promo-item img{
+	position: absolute;
+	left: -30%;
+	transition: all 0.5s ease;
+}
+.promo-item:hover > img{
+	left: -10%;
+}
+.promo-item p{
+	color: white;
+	font-size: 3rem;
+	text-align: right;
+	padding-right: 40px;
+	padding-top: 50px;
+	font-family: 'Oranienbaum', serif;
+	transition: all 0.5s ease;
+}
+.promo-item:hover > p{
+	padding-top: 20px;
+}
+.promo-item span{
+	color:#FFD700;
+	text-align: right;
+	position: absolute;
+	right: 40px;
+	bottom:-50px;
+	font-size: 2rem;
+	transition: all 0.5s ease;
+	opacity: 0;
+}
+.promo-item:hover > span{
+	bottom:40px;
+	opacity: 1;
+}
+.promo-container{
+	padding:0 20px 0 20px;
+}
+
+
+

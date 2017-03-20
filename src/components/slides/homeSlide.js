@@ -10,19 +10,19 @@ var HomeSlide = React.createClass({
                 {
                     titulo: "Anillos",
                     precio: "$ 499.00",
-                    img: "/images/anillo.png"
+                    img: "/joyeria/images/anillo.png"
 
                 },
                 {
                     titulo: "Amuletos",
                     precio: "$ 1,500.00",
-                    img: "/images/pulsera.png"
+                    img: "/joyeria/images/pulsera.png"
 
                 },
                 {
                     titulo: "Figuras",
                     precio: "$ 879.00",
-                    img: "/images/figure.png"
+                    img: "/joyeria/images/figure.png"
 
                 }
             ]

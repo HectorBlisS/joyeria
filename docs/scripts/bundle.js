@@ -52084,19 +52084,19 @@ var HomeSlide = React.createClass({displayName: "HomeSlide",
                 {
                     titulo: "Anillos",
                     precio: "$ 499.00",
-                    img: "/images/anillo.png"
+                    img: "/joyeria/images/anillo.png"
 
                 },
                 {
                     titulo: "Amuletos",
                     precio: "$ 1,500.00",
-                    img: "/images/pulsera.png"
+                    img: "/joyeria/images/pulsera.png"
 
                 },
                 {
                     titulo: "Figuras",
                     precio: "$ 879.00",
-                    img: "/images/figure.png"
+                    img: "/joyeria/images/figure.png"
 
                 }
             ]
@@ -52111,22 +52111,22 @@ var HomeSlide = React.createClass({displayName: "HomeSlide",
                     React.createElement(Promocion, {
                         titulo: this.state.promociones[0].titulo, 
                         precio: this.state.promociones[0].precio, 
-                        img: this.state.promociones[0].img
-                    })
+                        img: this.state.promociones[0].img}
+                    )
                     ), 
                     React.createElement("div", {className: "col-lg-4"}, 
                     React.createElement(Promocion, {
                         titulo: this.state.promociones[1].titulo, 
                         precio: this.state.promociones[1].precio, 
-                        img: this.state.promociones[1].img
-                    })
+                        img: this.state.promociones[1].img}
+                    )
                     ), 
                     React.createElement("div", {className: "col-lg-4"}, 
                     React.createElement(Promocion, {
                         titulo: this.state.promociones[2].titulo, 
                         precio: this.state.promociones[2].precio, 
-                        img: this.state.promociones[2].img
-                    })
+                        img: this.state.promociones[2].img}
+                    )
                     )
                 )
             )

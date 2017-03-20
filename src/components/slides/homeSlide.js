@@ -38,21 +38,21 @@ var HomeSlide = React.createClass({
                         titulo={this.state.promociones[0].titulo}
                         precio={this.state.promociones[0].precio}
                         img={this.state.promociones[0].img}
-                    ></Promocion>
+                    />
                     </div>
                     <div className="col-lg-4">
                     <Promocion
                         titulo={this.state.promociones[1].titulo}
                         precio={this.state.promociones[1].precio}
                         img={this.state.promociones[1].img}
-                    ></Promocion>
+                    />
                     </div>
                     <div className="col-lg-4">
                     <Promocion
                         titulo={this.state.promociones[2].titulo}
                         precio={this.state.promociones[2].precio}
                         img={this.state.promociones[2].img}
-                    ></Promocion>
+                    />
                     </div>
                 </div>
             </div>
